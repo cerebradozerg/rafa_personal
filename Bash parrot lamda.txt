@@ -1,3 +1,4 @@
+#copiar esto en /etc/bash.bashrc para todo el mundo o ~/.basrc para el usuario en concreto
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
