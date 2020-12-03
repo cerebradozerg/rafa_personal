@@ -1,3 +1,4 @@
+#para poner en el nicio de la terminal un resumen del sistemas añadir  al bashrc neofetch  a lo mejor hay que instalarlo
 #para poner como predeterminado bin bahs $chsh -S /bin/bash   para los usuarioas ya exixtentes modificar el /etc/sadow 
 #copiar esto en /etc/bash.bashrc para todo el mundo o ~/.basrc para el usuario en concreto
 # ~/.bashrc: executed by bash(1) for non-login shells.
