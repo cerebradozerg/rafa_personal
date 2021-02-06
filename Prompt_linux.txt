@@ -44,8 +44,7 @@ PS1+="${host_color}\h" #\h=Host
 PS1+="${etc_color}]-[";
 PS1+="${directory_color}\w"; # \w=Working directory
 PS1+="${etc_color}]\n└──╼ "; # \n=New Line
-PS1+="${symbol}${reset}";
-
+PS1+="λ: ${reset}";
 export PS1
 
 
