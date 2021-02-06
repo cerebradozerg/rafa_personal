@@ -3,7 +3,7 @@ para saber los colores buscar codigo de color tput
 
 # Define some basic colors using tput (8-bit color: 256 colors)
 #lineas
-red="\[$(tput setaf 3)\]"
+red="\[$(tput setaf 130)\]"
 #
 bright_red="\[$(tput setaf 196)\]"
 #directorio
@@ -29,7 +29,7 @@ host_color=$reset$bold$blue
 ## Color of current working directory (light_purple)
 directory_color=$reset$light_purple
 ## Color for other characters (like the arrow)
-etc_color=$reset$red
+etc_color=$reset$bold$red
 # If last operation did not succeded, add [✗]- to the prompt
 on_error="\$([[ \$? != 0 ]] && echo \"${etc_color}[${at_color}✗${etc_color}]─\")"
 # The last symbol in prompt ($, for root user: #)
