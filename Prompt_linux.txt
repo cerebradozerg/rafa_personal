@@ -27,7 +27,7 @@ at_color=$reset$bold$orange
 ## Color of host/pc-name (blue)
 host_color=$reset$bold$blue
 ## Color of current working directory (light_purple)
-directory_color=$reset$light_purple
+directory_color=$reset$bold$light_purple
 ## Color for other characters (like the arrow)
 etc_color=$reset$bold$red
 # If last operation did not succeded, add [✗]- to the prompt
